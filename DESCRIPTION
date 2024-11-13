@@ -1,0 +1,40 @@
+Package: NatureArchiveR
+Title: Creates a Darwin Core standard compliant data archive ("a data package") for biodiversity data
+Version: 0.1.0.0
+Authors@R: c(person(given = "Joseph",
+           family = "Chipperfield",
+           role = c("aut"),
+           email = "joechip90@googlemail.com",
+           comment = c(ORCID = "0000-0003-3314-0846")),
+    person(given = "Matthew",
+           family = "Grainger",
+           role = c("aut"),
+           email = "matthewjamesgrainger@gmail.com",
+           comment = c(ORCID = "0000-0001-8426-6495")),
+    person(given = "Erlend",
+           family = "Nilsen",
+           role = c("aut", "cre"),
+           email = "Erlend.Nilsen@nina.no",
+           comment = c(ORCID = "0000-0002-5119-8331")),
+    person("Norsk institutt for naturforskning (NINA)", role = c("cph", "fnd"))
+           )
+Description: The package provides a workflow for creating a Darwin Core standard-compliant data archive ("a data package").
+    This facilitates FAIR (Findable, Accessible, Interoperable, Reusable; https://www.go-fair.org/fair-principles/) data
+    sharing and uploading of Darwin Core archives (data packages) to repositories such as GBIF.  The NatureArchiveR package
+    also provides tools for the processing and manipulation of metadata associated with Darwin Core archives and for the
+    import and export of metadata according to the EML (Ecological Metadata Language; https://eml.ecoinformatics.org/)
+    standard.
+URL: https://github.com/LivingNorway/NatureArchiveR
+BugReports: https://github.com/LivingNorway/NatureArchiveR/issues
+License: GPL-3
+Encoding: UTF-8
+LazyData: TRUE
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports:
+Suggests:
+    testthat,devtools,xml2
+VignetteBuilder: knitr
+Depends: 
+    R (>= 2.10)
+
